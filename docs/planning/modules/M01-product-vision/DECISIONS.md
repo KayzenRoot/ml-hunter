@@ -1,0 +1,4 @@
+# M01 Decisions
+Status: PLAN-COMPLETE
+
+Accepted: complete approved feature universe is V1; initial wedge is Brazilian grocery/wholesale + Mercado Livre without core hard-coding; optimize explainable realized economic value/capital efficiency; deterministic engines own financial truth/guards while AI interprets/recommends; TruthClass = OBSERVED/DERIVED/ESTIMATED/UNKNOWN; AutomationMode = MANUAL/ASSISTED/AUTOPILOT and remains separate from authorization; missing evidence is UNKNOWN; planning is skeleton/context-pack-first. Deferred to owning modules/ADRs: stack, scoring weights, commercial plans, infrastructure topology, provider capabilities and automation thresholds.
