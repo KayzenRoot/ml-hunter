@@ -4,21 +4,28 @@
   "repository": "KayzenRoot/ml-hunter",
   "project_state": "GREENFIELD",
   "gef_version": "1.0.0",
-  "baseline_main_head": "a0c49adae9a7738c6780011c412027f8df40b463",
+  "gef_adoption_status": "ADOPTED",
+  "pre_adoption_seed_sha": "a0c49adae9a7738c6780011c412027f8df40b463",
+  "accepted_adoption_candidate_sha": "505031d0074250d38c663dffbedf75ce53ae5eb3",
+  "accepted_adoption_merge_sha": "ab0c49b30cf3bf655dbe53f46837ffd0a85cab84",
+  "accepted_workflow_run_id": 35220590711,
+  "accepted_audit_review_id": 5235537321,
   "product_progress": "0_percent_implementation_planning_only",
-  "completed_governed_increments": [],
-  "active_increment": "MLH-WO-0001-GEF-ADOPTION",
-  "blocked_items": [
-    "product_requirements_pending_discovery",
-    "product_architecture_pending_discovery",
-    "product_implementation_pending_discovery"
+  "completed_governed_increments": [
+    "MLH-WO-0001-GEF-ADOPTION"
   ],
-  "accepted_evidence": [],
+  "active_increment": null,
+  "next_legal_increment": "MLH-WO-0002-PRODUCT-DISCOVERY",
+  "capability_gaps": [
+    "main_branch_unprotected",
+    "repository_ruleset_absent",
+    "connected_github_integration_cannot_configure_admin_repository_rules"
+  ],
   "unresolved_risks": [
     "product_objective_not_yet_approved",
     "technology_stack_not_yet_selected",
     "product_threat_surface_not_yet_defined"
   ],
-  "next_legal_action": "validate_exact_head_audit_merge_then_promote_checkpoint",
-  "stop_condition": "GEF_ADOPTION_EXACT_HEAD_EVIDENCE_REQUIRED"
+  "next_legal_action": "execute_MLH-WO-0002-PRODUCT-DISCOVERY",
+  "stop_condition": "GEF_V1_ADOPTED_READY_FOR_GOVERNED_DEVELOPMENT"
 }
