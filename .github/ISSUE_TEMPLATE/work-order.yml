@@ -1,0 +1,26 @@
+name: Governed Work Order
+description: Propose a bounded ML Hunter engineering increment
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Use this issue only to propose work. Accepted execution must be represented by a repository Work Order."
+  - type: input
+    id: objective
+    attributes:
+      label: Objective
+      description: What objective outcome is required?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and out of scope
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and evidence
+    validations:
+      required: true
