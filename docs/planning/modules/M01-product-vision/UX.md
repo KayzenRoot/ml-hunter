@@ -1,0 +1,4 @@
+# M01 UX
+Status: PLAN-COMPLETE
+
+Universal Decision Clarity contract: important recommendations answer WHAT, WHY, MONEY, CONFIDENCE/FRESHNESS, RISK, NEXT ACTION and consequence of inaction where meaningful. Use progressive disclosure: decision/economics first, evidence/formulas/history/diagnostics inspectable. Required states include loading, no evidence, partial/degraded, stale, estimated, source conflict, permission denied, integration unavailable, guard blocked, reconciliation pending and safe failure. Observed and estimated information must be visually distinguishable; AI prose must not masquerade as deterministic financial truth. Accessibility and responsive behavior are mandatory, with detailed standards owned by M75.
