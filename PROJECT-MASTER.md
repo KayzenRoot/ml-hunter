@@ -5,20 +5,22 @@
 - Project: **ML Hunter**
 - Canonical repository: `KayzenRoot/ml-hunter`
 - Repository classification: `GREENFIELD`
-- Current maturity: `PLANNING / BOOTSTRAP`
-- GEF baseline: `GEF Bootstrap V1.0.0`
+- Current maturity: `PLANNING`
+- GEF baseline: `GEF Bootstrap V1.0.0 — ADOPTED`
 
 ## Purpose
 
 The product objective has **not yet been formally supplied or approved**. The repository name and conversation establish that this is a new system planning effort, but no product capabilities are treated as requirements until governed discovery records them.
 
-## Current accepted facts
+## Current accepted state
 
 - The repository was empty before GEF adoption began.
-- There is no legacy application, release, database, CI pipeline or architecture to preserve.
+- GEF adoption PR #1 was exact-head audited and merged.
+- Accepted adoption candidate SHA: `505031d0074250d38c663dffbedf75ce53ae5eb3`.
+- Accepted adoption merge SHA: `ab0c49b30cf3bf655dbe53f46837ffd0a85cab84`.
+- No product code, release, database or runtime environment exists.
 - No technology stack has been selected.
-- No product code exists.
-- The repository is public at adoption time.
+- Product implementation progress remains `0%`.
 
 ## Environments
 
@@ -34,7 +36,7 @@ No product release exists. GEF V1.0.0 is an engineering-governance baseline, not
 - No implementation without an approved Work Order.
 - No invented product scope, test commands, releases or evidence.
 - Exact-head review is required for substantial merges.
-- CRITICAL/HIGH unresolved findings block release acceptance.
+- CRITICAL/HIGH unresolved findings block governed release acceptance.
 
 ## Non-goals of the adoption increment
 
@@ -44,13 +46,17 @@ No product release exists. GEF V1.0.0 is an engineering-governance baseline, not
 - Creating speculative database/API/UI contracts.
 - Claiming production readiness.
 
+## Completed governed increment
+
+`MLH-WO-0001-GEF-ADOPTION` — accepted.
+
 ## Active increment
 
-`MLH-WO-0001-GEF-ADOPTION`
+None. The repository is at a clean post-adoption checkpoint.
 
 ## Next legal increment
 
-After GEF adoption is accepted and checkpointed: `MLH-WO-0002-PRODUCT-DISCOVERY`.
+`MLH-WO-0002-PRODUCT-DISCOVERY`.
 
 ## Known gaps
 
@@ -58,7 +64,8 @@ After GEF adoption is accepted and checkpointed: `MLH-WO-0002-PRODUCT-DISCOVERY`
 2. Functional and non-functional product requirements are unresolved.
 3. Technology stack and architecture are unresolved.
 4. Product-specific threat model, data model, API/UI and deployment are unresolved.
+5. `main` is currently unprotected and no repository ruleset exists; the connected GitHub integration cannot configure administrative repository rules. See `.engineering/receipts/CAPABILITY-GAPS.md`.
 
 ## GEF adoption status
 
-`IN_PROGRESS` until the adoption PR passes exact-head assurance and the post-adoption checkpoint is accepted.
+`ADOPTED — READY_FOR_GOVERNED_DEVELOPMENT`.
