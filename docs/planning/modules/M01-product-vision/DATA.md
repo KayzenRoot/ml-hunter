@@ -1,0 +1,4 @@
+# M01 Data
+Status: PLAN-COMPLETE
+
+Material intelligence uses a Truth Envelope: value/reference, TruthClass, provenance, observed/calculated time, freshness, confidence where applicable, method/algorithm version, tenant visibility and evidence references. Shared intelligence is reusable only when legally permitted; credentials, costs, purchases, inventory, listings, orders, financials, strategies, policies and private outcomes are tenant-private. Decision-time evidence must remain historically explainable. Later corrections supersede rather than silently rewrite history. Freshness is data-class/source specific. Expired evidence degrades or blocks decisions according to risk. Data minimization applies globally.
