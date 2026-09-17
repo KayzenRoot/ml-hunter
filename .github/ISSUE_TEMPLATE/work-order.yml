@@ -1,5 +1,5 @@
 name: Governed Work Order
-about: Propose a bounded ML Hunter engineering increment
+description: Propose a bounded ML Hunter engineering increment
 labels: []
 body:
   - type: markdown
