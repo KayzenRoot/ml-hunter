@@ -1,0 +1,4 @@
+# M01 Codex Context
+Status: PLAN-COMPLETE / NOT EXECUTABLE
+
+Future minimal pack: M01 MASTER, REQUIREMENTS, DOMAIN, DATA, SECURITY, TESTS, FILE-MAP; accepted foundation ADRs; specific Work Order; global DoD. Only paths assigned by the WO/final manifest may be modified. Product thesis, truth classes, tenant isolation and financial-truth boundary are read-only unless a planning delta explicitly opens them. Required evidence includes assigned invariant tests, final-stack lint/type/build, changed-file manifest and exact-head receipt. Codex work remains illegal until ML_HUNTER_V1_PLANNED_READY_FOR_CODEX_IMPLEMENTATION plus an accepted WO.
